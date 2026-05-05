@@ -1,62 +1,61 @@
-# UAE Running & Cycling Routes Platform 🚴‍♂️🏃‍♂️ AE
+# منصة مسارات الإمارات للجري والدراجات 🚴‍♂️🏃‍♂️ AE
 
-Welcome to the most comprehensive platform for runners and cyclists in the United Arab Emirates. This platform provides detailed information about routes, gear, and safety tips across all seven emirates.
+أهلاً بك في المنصة الأكثر شمولاً لهواة الجري وركوب الدراجات في دولة الإمارات العربية المتحدة. توفر هذه المنصة معلومات تفصيلية عن المسارات، المعدات، ونصائح السلامة في جميع الإمارات السبع.
 
-## 🌟 Overview
+## 🌟 نظرة عامة
 
-This project is a high-performance web application built with **Next.js 15** and **TypeScript**, designed to help outdoor enthusiasts discover the best tracks in the UAE. Whether you are a professional cyclist or a beginner runner, this platform has everything you need to plan your next activity.
+هذا المشروع عبارة عن تطبيق ويب عالي الأداء تم بناؤه باستخدام **Next.js 15** و **TypeScript**، وهو مصمم لمساعدة الرياضيين على اكتشاف أفضل المسارات في الدولة. سواء كنت دراجاً محترفاً أو عداءً مبتدئاً، فإن هذه المنصة توفر لك كل ما تحتاجه لتخطيط نشاطك القادم.
 
-## 🚀 Key Features
+## 🚀 الميزات الرئيسية
 
-- **Interactive Map**: A real-time map built with Leaflet showing 20+ running and cycling tracks with custom markers and GPS locations.
-- **Dual Mode (Running & Cycling)**: Seamlessly switch between running and cycling content using an intuitive tab system.
-- **Smart Tools**: Integrated tools to calculate physical needs, weather-based planning, and route difficulty.
-- **Gear Guide**: Comprehensive guide for equipment, featuring official UAE Team Emirates 2026 branding.
-- **PWA Ready**: Install the platform on your mobile device for a native-like experience.
-- **Fully Responsive**: Stunning design using Tailwind CSS and Framer Motion for smooth animations.
-- **Bi-lingual Support**: Full support for both Arabic and English languages.
+- **خريطة تفاعلية**: خريطة حية تم بناؤها باستخدام Leaflet تعرض أكثر من 20 مساراً للجري والدراجات مع مؤشرات مخصصة ومواقع GPS دقيقة.
+- **وضع مزدوج (جري ودراجات)**: تنقل بسلاسة بين محتوى الجري والدراجات باستخدام نظام تبويب (Tabs) بديهي.
+- **أدوات ذكية**: أدوات مدمجة لحساب الاحتياجات البدنية، التخطيط بناءً على الطقس، وحساب صعوبة المسار.
+- **دليل المعدات**: دليل شامل للمعدات الرياضية، يتميز بهوية فريق الإمارات الرسمية (UAE Team Emirates 2026).
+- **دعم PWA**: يمكن تثبيت المنصة على هاتفك المحمول للحصول على تجربة تشبه التطبيقات الأصلية.
+- **تصميم متجاوب بالكامل**: تصميم عصري باستخدام Tailwind CSS و Framer Motion لضمان سلاسة الحركة والجمالية.
+- **دعم لغوي كامل**: يدعم اللغتين العربية والإنجليزية بشكل كامل.
 
-## 🛠️ Tech Stack
+## 🛠️ التقنيات المستخدمة
 
-- **Framework**: [Next.js](https://nextjs.org/) (App Router)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Maps**: [Leaflet](https://leafletjs.com/) & [React Leaflet](https://react-leaflet.js.org/)
-- **Components**: [shadcn/ui](https://ui.shadcn.com/)
+- **الإطار البرمجي**: [Next.js](https://nextjs.org/) (App Router)
+- **لغة البرمجة**: [TypeScript](https://www.typescriptlang.org/)
+- **التصميم (CSS)**: [Tailwind CSS](https://tailwindcss.com/)
+- **التحريك**: [Framer Motion](https://www.framer.com/motion/)
+- **الأيقونات**: [Lucide React](https://lucide.dev/)
+- **الخرائط**: [Leaflet](https://leafletjs.com/) & [React Leaflet](https://react-leaflet.js.org/)
+- **المكونات الجاهزة**: [shadcn/ui](https://ui.shadcn.com/)
 
-## 📦 Getting Started
+## 📦 كيفية التشغيل
 
-To run this project locally, follow these steps:
+لتشغيل المشروع محلياً على جهازك، اتبع الخطوات التالية:
 
-1. **Clone the repository:**
+1. **تحميل المشروع (Clone):**
    ```bash
    git clone https://github.com/a88li/uae-cycling-website.git
    ```
 
-2. **Install dependencies:**
+2. **تثبيت المكتبات:**
    ```bash
    bun install
-   # or
+   # أو
    npm install
    ```
 
-3. **Run the development server:**
+3. **تشغيل خادم التطوير:**
    ```bash
    bun dev
-   # or
+   # أو
    npm run dev
    ```
 
-4. **Open the browser:**
-   Navigate to `http://localhost:3000` to see the result.
+4. **فتح المتصفح:**
+   انتقل إلى الرابط `http://localhost:3000` لمشاهدة الموقع.
 
-## 🇦🇪 Why the UAE?
+## 🇦🇪 لماذا الإمارات؟
 
-The UAE boasts world-class infrastructure for outdoor activities, from the coastal tracks of Dubai and Abu Dhabi to the mountain trails of Ras Al Khaimah and Fujairah. Our platform highlights these locations to encourage a healthy and active lifestyle.
+تتمتع دولة الإمارات ببنية تحتية عالمية المستوى للأنشطة الخارجية، من مسارات دبي وأبوظبي الساحلية إلى مسارات رأس الخيمة والفجيرة الجبلية. تهدف منصتنا إلى تسليط الضوء على هذه المواقع لتشجيع نمط حياة صحي ونشيط.
 
 ---
 
-Built with ❤️ for the UAE Sporting Community.
-
+تم التطوير بكل ❤️ لمجتمع الرياضة في الإمارات.
