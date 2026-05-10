@@ -45,7 +45,7 @@
 
 :root {
   --radius: 0.625rem;
-  /* UAE Cycling Theme - Light Mode */
+  /* UAE Running Theme - Light Mode */
   --background: oklch(0.98 0.002 250);
   --foreground: oklch(0.20 0.05 260);
   --card: oklch(1 0 0);
